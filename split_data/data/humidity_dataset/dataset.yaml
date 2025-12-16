@@ -1,0 +1,12 @@
+
+# YOLOv8 dataset.yaml for Label Studio export
+# Set 'path' to the root directory containing your 'train' and 'val' folders
+path: data/dataset/
+train: train/images
+val: val/images
+
+# number of classes
+nc: 1
+
+# class names
+names: ['Reading']
