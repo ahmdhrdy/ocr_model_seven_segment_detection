@@ -1,0 +1,37 @@
+
+---
+
+# ✅ 4. Final `requirements.txt` (LOCKED & CONFLICT-FREE)
+
+This file is based **exactly on your working environment**.
+
+```txt
+# Python 3.9 required
+
+# Core
+numpy==1.24.3
+pillow==11.3.0
+opencv-python==4.6.0.66
+opencv-contrib-python==4.6.0.66
+
+# TensorFlow Lite (CPU)
+tensorflow-intel==2.13.0
+tensorflow-estimator==2.13.0
+protobuf==3.20.2
+
+# OCR
+paddlepaddle==2.6.2
+paddleocr==2.7.0.3
+
+# Image processing
+scikit-image==0.24.0
+scipy==1.13.1
+imgaug==0.4.0
+shapely==2.0.7
+pyclipper==1.3.0.post6
+lmdb==1.7.5
+
+# Utils
+tqdm==4.67.2
+matplotlib==3.9.4
+typing_extensions==4.15.0
